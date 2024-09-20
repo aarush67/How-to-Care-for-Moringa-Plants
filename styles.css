@@ -116,17 +116,24 @@ ul {
     width: 150px;
 }
 
-/* Footer */
+/* Footer Styling */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
     background-color: #f2f6f4;
     border-top: 2px solid #e0e0e0;
 }
 
 footer p {
+    margin: 5px 0;
     font-size: 1.1rem;
 }
+
+footer strong {
+    color: #4CAF50;
+    font-size: 1.3rem;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
