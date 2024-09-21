@@ -1,53 +1,51 @@
-/* General styling */
+/* Reset browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #f7f9f8; /* Light background for contrast */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f6f4;
     color: #333;
     margin: 0;
-    padding: 20px; /* Add padding to body for spacing */
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #4CAF50;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #45a049;
 }
 
 /* Container styling */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 40px auto;
     padding: 20px;
-    background-color: white; /* White background for the paper effect */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
-
-/* Navbar styling */
-nav {
-    background-color: #4CAF50; /* Matches header color */
-    padding: 10px 0;
-    text-align: center;
-    margin-bottom: 20px; /* Space between nav and content */
-    border-radius: 8px; /* Rounded corners for the navbar */
-}
-
-nav .logo h1 {
-    color: white;
-    font-size: 2rem;
-    margin: 0; /* Remove default margin */
-}
-
-nav .nav-links {
-    display: inline-block;
-    list-style: none;
-}
-
-nav .nav-links li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-nav .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
 /* Header */
 header {
     background-color: #4CAF50;
